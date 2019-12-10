@@ -2,6 +2,8 @@
 
 ## Alan Nichol (Co-Founder & CTO) + Ty Dunn (Product Manager)
 
+There are five levels of conversational AI, from simple notifications through to autonomous organizations of assistants. Level 3 is where the advanced teams are today. In this workshop, you'll be given a template Level 2 assistant that can handle FAQs, and work with Alan to add contextual dialogue. You'll build machine learning models for natural language understanding and dialogue management, and learn how to integrate ML with your business logic.
+
 ### [Chatbot Summit Berlin 2019 - Workshop Slides](https://docs.google.com/presentation/d/1GtaWc5jLkfoQQe4F9LeWb7qaCoSrJUv6-QsItZs9PIQ/edit#slide=id.g758916d0ef_0_652)
 
 ### New to Rasa? Check out the [Rasa Masterclass](https://www.youtube.com/playlist?list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc)
