@@ -6,7 +6,6 @@ intents:
   - contact_sales
   - inform
   - explain
-  - out_of_scope
 
 entities:
   - company
