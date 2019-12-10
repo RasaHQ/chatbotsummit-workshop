@@ -12,14 +12,9 @@ pipeline:
   min_ngram: 1
   max_ngram: 4
 - name: "EmbeddingIntentClassifier"
-- name: "ResponseSelector"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolicy
-  - name: FormPolicy
-  - name: TwoStageFallbackPolicy
-    nlu_threshold: 0.8
+    max_history: 1
