@@ -78,7 +78,7 @@
 - [bot-fan@bots.com](business_email)
 - [maxmeier@firma.de](business_email)
 - [bot-fan@bots.com](business_email)
-- [my email is email@rasa.com](business_email)
+- my email is [email@rasa.com](business_email)
 - [engineer](job_function)
 - [brand manager](job_function)
 - [marketing](job_function)
