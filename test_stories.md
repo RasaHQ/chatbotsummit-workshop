@@ -18,12 +18,3 @@
 * bye: bye bye
   - utter_bye
 
-## ask faq
-* faq: Can you recommend some tutorials?
-  - respond_faq
-
-## ask faq
-* faq: Can you recommend some tutorials?
-  - respond_faq
-* faq: I need an NLU tutorial
-  - respond_faq
