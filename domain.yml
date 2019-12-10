@@ -1,12 +1,10 @@
 intents:
-  - greet: {triggers: action_greet}
+  - greet
   - bye
   - thank
   - faq
   - contact_sales
   - inform
-  - explain
-  - out_of_scope
 
 entities:
   - company
@@ -30,14 +28,7 @@ slots:
   use_case:
     type: unfeaturized
   requested_slot:
-    type: categorical
-    values:
-      - business_email
-      - company
-      - person_name
-      - use_case
-      - budget
-      - job_function
+    type: unfeaturized
 
 
 actions:
@@ -45,9 +36,6 @@ actions:
   - utter_noworries
   - utter_bye
   - respond_faq
-  - action_greet
-  - utter_explain_why_budget
-  - utter_explain_why_email
 
 
 templates:
@@ -69,11 +57,6 @@ templates:
     - text: What's your name?
   utter_ask_use_case:
     - text: What's your use case?
-  utter_explain_why_budget:
-    - text: We need to know your budget to recommend a subscription
-  utter_explain_why_email:
-    - text: We need your email so we can contact you
-
 
 forms:
   - sales_form
