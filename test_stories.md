@@ -27,3 +27,15 @@
   - respond_faq
 * faq: I need an NLU tutorial
   - respond_faq
+
+## interactive_story_1
+* greet: Hi
+    - utter_greet
+* faq: can you recommend a tutorial?
+    - respond_faq
+* out_of_scope: i like bananas
+    - utter_out_of_scope_response
+* thank: thanks
+    - utter_noworries
+* bye: bye
+    - utter_bye

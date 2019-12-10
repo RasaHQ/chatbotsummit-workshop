@@ -7,6 +7,7 @@
 - Good morning
 - hi again
 - hi folks
+- hi
 
 ## intent:bye
 - goodbye
@@ -18,6 +19,7 @@
 - bye bye
 - gotta go
 - farewell
+- bye
 
 ## intent:thank
 - Thanks
@@ -26,8 +28,9 @@
 - Thanks bot
 - Thanks for that
 - cheers
+- thanks
 
-## intent: faq/ask_tutorials
+## intent:faq/ask_tutorials
 - are there some tutorials i could look at
 - do you have tutorials
 - i need a tutorial on how to use rasa
@@ -35,14 +38,14 @@
 - can you show me a tutorial
 - i would like to follow a tutorial
 
-## intent: faq/ask_tutorialcore
+## intent:faq/ask_tutorialcore
 - are there some core tutorials i could look at
 - do you have tutorials about core
 - i need a tutorial on how to use rasa core
 - rasa core tutorial
 - core tutorial
 
-## intent: faq/ask_tutorialnlu
+## intent:faq/ask_tutorialnlu
 - are there some nlu tutorials i could look at
 - do you have tutorials about nlu
 - i need a tutorial on how to use rasa nlu
@@ -64,7 +67,6 @@
 
 ## intent:inform
 - [100k](budget)
-- [100k](budget)
 - [240k/year](budget)
 - [150,000 USD](budget)
 - I work for [Rasa](company)
@@ -74,8 +76,6 @@
 - it's a tech company, [Rasa](company)
 - [ACME](company)
 - [Rasa Technologies](company)
-- [maxmeier@firma.de](business_email)
-- [bot-fan@bots.com](business_email)
 - [maxmeier@firma.de](business_email)
 - [bot-fan@bots.com](business_email)
 - my email is [email@rasa.com](business_email)
@@ -102,3 +102,9 @@
 - why do you need it
 - why do you need to know that?
 - could you explain why you need it?
+
+## intent:faq
+- can you recommend a tutorial?
+
+## intent:out_of_scope
+- i like bananas

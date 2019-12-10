@@ -48,3 +48,15 @@
     - utter_explain_why_budget
     - sales_form
     - form{"name": null}
+
+## interactive_story_1
+* greet
+    - utter_greet
+* faq
+    - respond_faq
+* out_of_scope
+    - utter_out_of_scope_response
+* thank
+    - utter_noworries
+* bye
+    - utter_bye
