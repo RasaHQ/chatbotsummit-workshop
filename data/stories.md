@@ -1,3 +1,7 @@
+## greet
+* greet
+  - utter_greet
+
 ## thank
 * thank
   - utter_noworries

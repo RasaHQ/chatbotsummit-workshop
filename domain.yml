@@ -1,5 +1,5 @@
 intents:
-  - greet: {triggers: action_greet}
+  - greet
   - bye
   - thank
   - faq
@@ -44,7 +44,6 @@ actions:
   - utter_noworries
   - utter_bye
   - respond_faq
-  - action_greet
   - utter_explain_why_budget
   - utter_explain_why_email
 
